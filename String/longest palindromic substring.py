@@ -18,9 +18,8 @@ def isPalindrome(stringg,l,r,a):
        a=LongestPalindrome(stringg,l,l+1,a)
 
 
-    b=dict()
-    if max:
-    for i in a:
+    print(max(a,key=len))
+ 
         
         
     
